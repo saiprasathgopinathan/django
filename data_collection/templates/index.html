@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+<body>
+    <h1>Contact Page</h1>
+    <form action="{% url 'result' %}">
+        <input type="text" name="name" value="Enter name">
+        <br>
+        <br>
+        <input type="text" name="age" value="Enter age">
+        <br>
+        <br>
+
+
+        <label for="purpose">Choose a purpose:</label>
+        <select id="purpose" name="purposelist">
+            
+            <option value="Education">Education</option>
+            <option value="Entertainment">Entertainment</option>
+        </select>
+
+        
+        <br>
+        <br>
+
+        <input type="submit" value="click me">
+
+    </form>
+    
+    
+</body>
+</html>
